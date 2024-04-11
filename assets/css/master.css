@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+@font-face {
+    font-family: 'menu';
+    src: url('../font/Merriweather-Bold.ttf');
+    font-family: 'project';
+    src: url('../font/Merriweather-Light.ttf');
+    font-family: 'text';
+    src: url('../font/PlayfairDisplay-VariableFont_wght.ttf');
+    font-family: 'text2';
+    src: url('../font/Merriweather-Regular.ttf');
+}
+@keyframes anime1 {
+    0%{transform: translate(-50%,-50%) scale(1);}
+    50%{transform: translate(-50%,-50%) scale(1.07);}
+    100%{transform: translate(-50%,-50%) scale(1);}
+}
+@keyframes anime2 {
+    0%{transform: translateX(0);}
+    100%{transform: translateX(100%);}
+}
+@keyframes anime3 {
+    0%{color:white;}
+    47%{color: rgb(255, 71, 15);}
+    47.000000001%{color:rgb(255, 71, 15);}
+    53%{color: rgb(241, 241, 57);}
+    53.000000001%{color: rgb(241, 241, 57);}
+    98%{color: rgb(213, 76, 99);}
+    100%{color: rgb(213, 76, 99);}
+}
+@keyframes anime4 {
+    0%{scale: 1;}
+    47%{scale: 0.5;}
+    53%{scale: 0.5;}
+    53.0000001%{scale: 0.5;}
+    95%{scale: 0.75;}
+    95.000001%{scale: 0.75;}
+    100%{scale: 1;}
+}
