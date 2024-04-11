@@ -1,7 +1,7 @@
 # Personal-Website
 Used TailwindCss
 
-👩‍💻😎[Watch Demo](https://fatememohamadian.github.io/Personal-Website/)
+👩‍💻😎 [Watch Demo](https://fatememohamadian.github.io/Personal-Website/)
 
                                                            😎😉  
                                                           
@@ -16,6 +16,9 @@ Used TailwindCss
 
  👩‍💻Used **Html , css , Tailwind** 
 
- 📲📞ContactMe 
- 🔗[instagram](https://www.instagram.com/fateme_mohamadiian.fed)       
- 🔗 [linkedin](https://www.linkedin.com/in/fateme-mohamadian-dev0824)
+ <h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://linkedin.com/in/fateme-mohamadian-dev0824" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="fateme-mohamadian-dev0824" height="30" width="40" /></a>
+<a href="https://instagram.com/fateme_mohamadiian.fed" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="fateme_mohamadiian.fed" height="30" width="40" /></a>
+</p>
+
