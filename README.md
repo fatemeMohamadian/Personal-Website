@@ -15,7 +15,7 @@ Used TailwindCss
 
  📅2024-04-12
 
- 👩‍💻Used **Html , css , Tailwind** 
+ 👩‍💻Used **Html , css , TailwindCss** 
 
  <h3 align="left">Connect with me:</h3>
 <p align="left">
