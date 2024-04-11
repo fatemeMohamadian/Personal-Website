@@ -1,15 +1,14 @@
 # Personal-Website
 Used TailwindCss
 
-👩‍💻😎[Show Demo](https://fatememohamadian.github.io/Personal-Website/)
+👩‍💻😎[Watch Demo](https://fatememohamadian.github.io/Personal-Website/)
 
                                                            😎😉  
                                                           
-![1](https://github.com/fatemeMohamadian/Meghna_Tailwind/assets/155579918/34904b1e-abba-4674-b53a-3ec376e2c485)
+![2](https://github.com/fatemeMohamadian/Personal-Website/assets/155579918/fc766c06-12d3-4e3f-b66a-2519fae0258a)
                                                              👩‍💻
-![2](https://github.com/fatemeMohamadian/Meghna_Tailwind/assets/155579918/70cafc75-21fd-4fcc-b9f0-10f7f374d59f)
-
-
+![1](https://github.com/fatemeMohamadian/Personal-Website/assets/155579918/a2a1fd26-94b2-43da-8ab2-92894a700bd5)
+                                                             
                                                             😎😉  
 
  😉Developed by Me
