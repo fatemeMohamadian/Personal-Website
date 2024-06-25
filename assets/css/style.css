@@ -604,8 +604,8 @@ video {
   position: relative;
 }
 
-.bottom-\[-90px\] {
-  bottom: -90px;
+.bottom-\[-130px\] {
+  bottom: -130px;
 }
 
 .left-0 {
@@ -618,14 +618,6 @@ video {
 
 .top-\[250px\] {
   top: 250px;
-}
-
-.bottom-\[-100px\] {
-  bottom: -100px;
-}
-
-.bottom-\[-130px\] {
-  bottom: -130px;
 }
 
 .z-10 {
@@ -803,8 +795,18 @@ video {
   width: 100%;
 }
 
-.translate-x-\[-15px\] {
-  --tw-translate-x: -15px;
+.translate-x-\[-20px\] {
+  --tw-translate-x: -20px;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.translate-x-\[-25px\] {
+  --tw-translate-x: -25px;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.translate-x-\[-30px\] {
+  --tw-translate-x: -30px;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -830,31 +832,6 @@ video {
 
 .translate-y-\[5px\] {
   --tw-translate-y: 5px;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.translate-x-\[-25px\] {
-  --tw-translate-x: -25px;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.translate-x-\[-5px\] {
-  --tw-translate-x: -5px;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.translate-x-\[-20px\] {
-  --tw-translate-x: -20px;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.translate-x-\[-28px\] {
-  --tw-translate-x: -28px;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.translate-x-\[-30px\] {
-  --tw-translate-x: -30px;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -1071,30 +1048,15 @@ video {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
-.from-\[\#2a1454\] {
-  --tw-gradient-from: #2a1454 var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(42 20 84 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
 .from-indigo-800 {
   --tw-gradient-from: #3730a3 var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(55 48 163 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.via-\[\#513193\] {
-  --tw-gradient-to: rgb(81 49 147 / 0)  var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), #513193 var(--tw-gradient-via-position), var(--tw-gradient-to);
-}
-
 .via-purple-700 {
   --tw-gradient-to: rgb(126 34 206 / 0)  var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), #7e22ce var(--tw-gradient-via-position), var(--tw-gradient-to);
-}
-
-.to-\[\#180243\] {
-  --tw-gradient-to: #180243 var(--tw-gradient-to-position);
 }
 
 .to-purple-950 {
@@ -1389,18 +1351,24 @@ video {
   font-family: 'menu';
 
   src: url('../font/Merriweather-Bold.ttf');
+}
 
-  font-family: 'project';
-
-  src: url('../font/Merriweather-Light.ttf');
-
-  font-family: 'text';
-
-  src: url('../font/PlayfairDisplay-VariableFont_wght.ttf');
-
+@font-face {
   font-family: 'text2';
 
   src: url('../font/Merriweather-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'text';
+
+  src: url('../font/PlayfairDisplay-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: 'project';
+
+  src: url('../font/Merriweather-Light.ttf');
 }
 
 @keyframes anime1 {
